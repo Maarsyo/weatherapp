@@ -12,10 +12,12 @@
     border-radius: 30px;
     cursor: pointer;
     border: 2px solid white;
+    transition: ease .3s ease;
 }
 
 .button:hover{
-    bor
+    border: 2px solid #131313;
+    transition: ease .3s ease;
 }
 
 .input{
