@@ -10,7 +10,14 @@
     outline: none;
     margin-top: 5px;
     border-radius: 30px;
+    cursor: pointer;
+    border: 2px solid white;
 }
+
+.button:hover{
+    bor
+}
+
 .input{
     color: white;
     font-family: "Montserrat";
