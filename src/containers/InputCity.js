@@ -15,7 +15,7 @@ export default class InputCity extends React.Component {
         return(
             <div style={{textAlign : 'center', marginTop: '9px'}}>
                 <input type="text" 
-                placeholder="Coloque o nome da cidade"
+                placeholder="Nome do estado"
                 className="input"
                 value={this.state.city}
                 onChange={this.handleChange} />
