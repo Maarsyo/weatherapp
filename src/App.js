@@ -48,7 +48,7 @@ export default class App extends React.Component {
     return (
       <React.Fragment>
         <div className="div">
-          <h1 style={{ textAlign: 'center' }}>Veja a temperatura aonde você mora</h1>
+          <h1 style={{ textAlign: 'center' }}>Veja a temperatura!</h1>
           <InputCity getTemperature={this.getTemperature} /> <br />
           <h2>{data}</h2>
         </div>
