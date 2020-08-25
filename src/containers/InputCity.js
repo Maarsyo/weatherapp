@@ -15,12 +15,12 @@ export default class InputCity extends React.Component {
         return(
             <div style={{textAlign : 'center', marginTop: '9px'}}>
                 <input type="text" 
-                placeholder="Input City Name"
+                placeholder="Coloque o nome da cidade"
                 className="input"
                 value={this.state.city}
                 onChange={this.handleChange} />
                 <br />
-                <button className="button" onClick={()=>{this.props.getTemperature(this.state.city)}}>Get Temperature</button>
+                <button className="button" onClick={()=>{this.props.getTemperature(this.state.city)}}>Pegue a temperatura</button>
             </div>
         );
     }
